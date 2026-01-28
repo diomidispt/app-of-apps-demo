@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: back
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/example/app-of-apps-demo.git
+    targetRevision: HEAD
+    path: apps/back
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: back
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
