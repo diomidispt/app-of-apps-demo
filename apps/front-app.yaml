@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/diomidispt/app-of-apps-demo.git
     targetRevision: HEAD
-    path: apps/front
+    path: manifests/front
   destination:
     server: https://kubernetes.default.svc
     namespace: front

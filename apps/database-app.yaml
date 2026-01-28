@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/diomidispt/app-of-apps-demo.git
     targetRevision: HEAD
-    path: apps/database
+    path: manifests/database
   destination:
     server: https://kubernetes.default.svc
     namespace: database
