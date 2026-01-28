@@ -20,10 +20,10 @@ spec:
   sources:
     - repoURL: https://github.com/example/app-of-apps-demo.git
       targetRevision: HEAD
-      path: apps/front
+      path: apps/front-app.yaml
     - repoURL: https://github.com/example/app-of-apps-demo.git
       targetRevision: HEAD
-      path: apps/back
+      path: apps/back-app.yaml
     - repoURL: https://github.com/example/app-of-apps-demo.git
       targetRevision: HEAD
-      path: apps/database
+      path: apps/database-app.yaml
