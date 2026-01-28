@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/example/app-of-apps-demo.git
+    repoURL: https://github.com/diomidispt/app-of-apps-demo.git
     targetRevision: HEAD
     path: apps/front
   destination:
