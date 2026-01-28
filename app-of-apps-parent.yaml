@@ -16,14 +16,3 @@ spec:
     automated:
       prune: true
       selfHeal: true
-  # Children apps
-  sources:
-    - repoURL: https://github.com/diomidispt/app-of-apps-demo.git
-      targetRevision: HEAD
-      path: apps/front-app.yaml
-    - repoURL: https://github.com/diomidispt/app-of-apps-demo.git
-      targetRevision: HEAD
-      path: apps/back-app.yaml
-    - repoURL: https://github.com/diomidispt/app-of-apps-demo.git
-      targetRevision: HEAD
-      path: apps/database-app.yaml
